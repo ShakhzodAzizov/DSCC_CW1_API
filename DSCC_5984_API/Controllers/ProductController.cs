@@ -10,6 +10,7 @@ using ProductsAPI.Repository;
 
 namespace ProductsAPI.Controllers
 {
+
     [Produces("application/json")]
     [Route("api/Product")]
     public class ProductController : Controller
